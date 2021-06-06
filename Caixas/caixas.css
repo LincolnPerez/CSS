@@ -1,0 +1,57 @@
+.caixa {
+    width:200px;
+    height:200px;
+
+    display: inline-block;
+    background: darkorange;
+    margin:1%;
+
+}
+
+.caixa1 {
+    background: blue;
+    
+}
+
+.caixa2 {
+   background:red;
+    
+}
+
+.caixa3 {
+   background:gold;
+    
+}
+
+.caixa5 {
+    background:thistle;
+}
+
+.caixa1 {
+    background:darkblue;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    width:30%;
+    height:100%;
+    border-radius: 0;
+    z-index: 10000;
+    margin:0;
+}
+
+.caixa2 {
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    background:url(../images/Turma.png);
+    transition: all .7s;
+}
+
+.caixa2:hover {
+     width:175px;
+    height:175px;
+
+}
